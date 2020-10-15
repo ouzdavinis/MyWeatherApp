@@ -1,0 +1,172 @@
+h1 {
+  color: #005086;
+  font-family: "Odibee Sans", cursive;
+  font-size: 72px;
+  font-weight: 800;
+  padding-top: 25px;
+  text-align: center;
+}
+
+hr {
+  border-top: 3px solid #f7d6bf;
+}
+a#f {
+  text-decoration: none;
+  color: #005086;
+  transition: all 200ms ease-in-out;
+}
+a#f:hover {
+  color: #318fb5;
+  cursor: pointer;
+}
+a#c {
+  text-decoration: none;
+  color: #005086;
+  transition: all 200ms ease-in-out;
+}
+a#c:hover {
+  color: #318fb5;
+  cursor: pointer;
+}
+
+div#forecast {
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+div#weather-card {
+  width: 315px;
+  margin-top: 0;
+}
+
+input#search-city {
+  border-color: #005086;
+  border-radius: 12px;
+  background-color: transparent;
+  display: block;
+  margin: 15px auto;
+  padding: 4px 8px;
+  text-align: center;
+}
+
+form#my-location {
+  align-content: center;
+  display: grid;
+  gap: 4px;
+  grid-auto-flow: column;
+  justify-content: center;
+}
+
+p#code-tag {
+  display: block;
+  font-size: 8px;
+  text-align: center;
+}
+
+span#temp-description {
+  text-transform: capitalize;
+}
+
+.card-deck {
+  max-width: 100%;
+}
+.card-title {
+  font-size: 55px;
+  padding: 0;
+  text-align: left;
+}
+.container {
+  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+  background-blend-mode: screen;
+  border-radius: 20px;
+  box-shadow: 14px 10px 15px 9px rgba(199, 207, 214, 0.57);
+  max-width: 600px;
+  margin-top: 100px;
+}
+
+.col-2 {
+  padding-left: 0;
+}
+
+.currentButton {
+  background-color: transparent;
+  font-weight: lighter;
+  border: none;
+  border-radius: 12px;
+  color: #005086;
+  display: block;
+  font-size: 30px;
+  margin: 5px auto;
+  padding: 5px;
+  transition: all 200ms ease-in-out;
+}
+.currentButton:hover {
+  color: #318fb5;
+}
+.degrees {
+  font-size: 45px;
+}
+
+.forecast {
+  margin-bottom: 15px;
+}
+.locationButton {
+  background-color: transparent;
+  border: none;
+  border-radius: 12px;
+  color: #005086;
+  display: block;
+  font-size: 30px;
+  margin: 5px auto;
+  padding: 5px;
+  transition: all 200ms ease-in-out;
+}
+
+.locationButton:hover {
+  color: #318fb5;
+}
+.location-card {
+  color: #005086;
+  font-family: "Odibee Sans", cursive;
+  font-size: 25px;
+  max-width: 100%;
+  padding-left: 55px;
+  width: 350px;
+}
+
+.weatherIconCard {
+  font-family: "Odibee Sans", cursive;
+  font-size: 18px;
+  width: 350px;
+  max-width: 100%;
+  padding: 0 25px;
+  color: #005086;
+}
+
+.weather-forecast h3 {
+  color: #005086;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  height: 15px;
+  line-height: 15px;
+  padding-top: 7px;
+}
+
+.weather-forecast img {
+  display: block;
+  margin: 0 auto;
+  height: 48px;
+  width: 48px;
+}
+
+.weather-forecast-temperature {
+  text-align: center;
+  color: #005086;
+  font-size: 13px;
+  font-weight: 400;
+  height: auto;
+  line-height: 15px;
+  white-space: nowrap;
+}
